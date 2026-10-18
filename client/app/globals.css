@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@theme {
+  /* Base backgrounds */
+  --color-bg: #0f1115;
+  --color-bg-alt: #161a22;
+  --color-surface: #1e2430;
+
+  /* Text */
+  --color-fg: #e6edf3;
+  --color-muted: #9aa4b2;
+
+  /* Primary accent */
+  --color-primary: #7c5cff;
+  --color-primary-hover: #6a4cff;
+
+  /* Secondary accent */
+  --color-secondary: #22d3ee;
+
+  /* Borders */
+  --color-border: #2a3140;
+
+  /* States */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+
+  /* Card / UI */
+  --color-card: #141824;
+  --color-card-hover: #1a2030;
+}
+* {
+  transition: all 0.2s;
+}
